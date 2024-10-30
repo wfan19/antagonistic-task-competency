@@ -1,5 +1,7 @@
 # README
-This is the repository for the submitted Robosoft 2025 paper "A Fast and Model Based Approach for Evaluating Task-Competence of Antagonistic Continuum Arms", as well as the [SUPPLEMENTARY INFORMATION pdf](/SUPPLEMENTARY_INFORMATION.pdf), which contains the in-coordinate form of the mechanics model, proofs of lemmas used in the paper, and more.
+This is the repository for the submitted Robosoft 2025 paper "A Fast and Model Based Approach for Evaluating Task-Competence of Antagonistic Continuum Arms".
+
+Please also read the [SUPPLEMENTARY INFORMATION pdf](/SUPPLEMENTARY_INFORMATION.pdf), which contains the in-coordinate form of the mechanics model, proofs of lemmas used in the paper, and more.
 
 This repository contains everything for reproducing the results in the paper:
 
