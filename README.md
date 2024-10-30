@@ -8,3 +8,4 @@ This repository contains everything for reproducing the results in the paper:
 - Datasets and post-processing code for actuator models can be found in the [SI_bellow_model_fitting](/SI_bellow_model_fitting/) directory.
 - CAD files for renderings are in the [CAD](/CAD/) directory
 
+The code itself is not of the highest quality 😓 but hopefully by providing the code for all of the results in the paper you can work through how everything works. 
