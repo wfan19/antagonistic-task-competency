@@ -1,4 +1,4 @@
-classdef GinaMuscleMechanics < RodMechanicsBase
+classdef FittedMuscleMechanics < RodMechanicsBase
 
     properties
         % Actuator characterization bounds determined from the plot in
@@ -7,11 +7,11 @@ classdef GinaMuscleMechanics < RodMechanicsBase
     end
 
     methods
-        function obj = GinaMuscleMechanics(l_0)
+        function obj = FittedMuscleMechanics(l_0)
             arguments
                 l_0 = 1;
             end
-            f_force = @GinaMuscleMechanics.actuatorForce_key;
+            f_force = @FittedMuscleMechanics.actuatorForce_key;
             obj@RodMechanicsBase(l_0, f_force);
 
             obj.e_bounds = [-0.5, 0.05];

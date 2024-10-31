@@ -24,8 +24,8 @@ function struct_antagonist = make_antagonist_arm(r_outer, r_inner)
     struct_design_base.g_0 = g_0;
     
     % Muscle force functions
-    f_bellow = @JacobBellowMechanics.actuator_force;
-    f_muscle = @GinaMuscleMechanics.actuatorForce_key;
+    f_bellow = @FittedBellowMechanics.actuator_force;
+    f_muscle = @FittedMuscleMechanics.actuatorForce_key;
     
     struct_antagonist = struct_design_base;
     struct_antagonist.fs = {f_bellow, f_muscle, f_muscle, f_bellow};

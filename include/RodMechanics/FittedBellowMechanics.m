@@ -1,15 +1,15 @@
-classdef JacobBellowMechanics < RodMechanicsBase
+classdef FittedBellowMechanics < RodMechanicsBase
 
     properties
         
     end
 
     methods
-        function obj = JacobBellowMechanics(l_0)
+        function obj = FittedBellowMechanics(l_0)
             arguments
                 l_0 = 1;
             end
-            f_force = @JacobBellowMechanics.actuator_force;
+            f_force = @FittedBellowMechanics.actuator_force;
             obj@RodMechanicsBase(l_0, f_force);
 
             obj.e_bounds = [-0.167, 0.6680];
